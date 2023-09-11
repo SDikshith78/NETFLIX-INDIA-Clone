@@ -1,0 +1,25 @@
+Firstly,
+we created this project using  "yarn" i.e, yarn create react-app netflix,
+then we installed Tailwind CSS (used yarn since we did it in yarn like yarn add -D tailwind css) and then
+Note:- We did few more steps in tailwind so check their official website for/of installation.
+
+secondly,
+we install some dependencies like axios for calling API's calls, react-router-dom and firebase
+we did like: yarn add axios react-router-dom firebase. we also installed react-icons and tailwind-scrollbar-hide.
+to use this plugin  in tailwind config file:  plugins: [require("tailwind-scrollbar-hide")],
+
+Thirdly, check about "BrowserRouter" from react-router-dom, after that for Movies APi we got it from movies db i.e,
+themoviedb.org - website login and get api (it is useful). check how he added api of popular, horror top rated etc.. in requests file.
+
+used optional chaining(?.) in main.js  <img src="" alt={movie?.title} /> : check it
+Timestamp:- API request end points
+
+further more, check about 'slider' which discussed in row component.
+now for firebase setup adn also we will use context API to manage our state to see user login or not.
+
+Check video for firebase setup and authentication..
+
+Note:- remember that after setting up firebase and copying the code of firebase SDk and keeping private API key in .env 
+        we need to restart the server.
+
+Check about firebase4 database and how to use it.
