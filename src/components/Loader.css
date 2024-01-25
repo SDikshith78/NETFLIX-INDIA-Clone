@@ -1,0 +1,33 @@
+/* styles.css (or your preferred styling approach) */
+
+.loader-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000; /* Set background color */
+}
+
+.loader-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* .box {
+  height: 11%;
+  width: 100%;
+  background-color: #ff0000;
+  color: rgb(0, 0, 0);
+  position: fixed;
+  z-index: 1000;
+  margin-top: -45%;
+} */
+
+.hide-navbar {
+  margin-top: -45%;
+}
